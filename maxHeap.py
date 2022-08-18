@@ -49,7 +49,6 @@ heap1.buildHeap()
 heap1.print()
 print(heap1.extract())
 heap1.print()
-
 print(heap1.kthel(4))
 heap1.print()
 '''
