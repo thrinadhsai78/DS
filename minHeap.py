@@ -63,6 +63,4 @@ k = int(input())
 heap1 = minHeap(arr,n)
 heap1.print()
 print(heap1.kthel(k))
-
-
 '''
