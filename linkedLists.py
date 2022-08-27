@@ -1,6 +1,3 @@
-from http.client import NotConnected
-
-
 class Node:
     def __init__(self, data=0, next=None):
         self.data = data
@@ -45,6 +42,7 @@ class LinkedList:
         fast = self.head
         pass
 
+'''
 arr = [12,56,78]
 ll1 = LinkedList()
 for i in arr:
@@ -54,3 +52,4 @@ ll1.reverse()
 ll1.print()
 
 print(ll1.isPal())
+'''
